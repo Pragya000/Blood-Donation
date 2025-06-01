@@ -24,6 +24,6 @@ CSS and Tailwind CSS are instrumental in shaping the visual appeal and responsiv
 
 
 
-## External Resources
+## 📸 Screenshot
 
-[Data for Indian Cities](https://simplemaps.com/data/world-cities)
+![Screenshot](src/assets/Screenshot.png)
