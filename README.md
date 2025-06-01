@@ -17,8 +17,9 @@ The Blood Donation Website allows users to:
 
 ## 📁 File Structure
 
+```text
 blood-donation-website/
-│├── server
+├── server/
 │ ├── data/ # Database configuration and seed data
 │ ├── middlewares/ # Authentication and error handling middleware
 │ ├── model/ # Mongoose models (User, Requests, Hospitals, etc.)
@@ -27,16 +28,16 @@ blood-donation-website/
 │ ├── utils/ # Utility functions
 │ ├── .env # Environment variables
 │ └── index.js # Express server entry point
-├── src
+├── src/
 │ ├── assets/ # Images and static assets
 │ ├── components/ # Reusable components
-│ │ ├── core/
-│ │ │ ├── AdminAccount/
-│ │ │ ├── Certificate/
-│ │ │ ├── Feed/
-│ │ │ ├── HospitalAccount/
-│ │ │ ├── Request/
-│ │ │ └── UserAccount/
+│ │ └── core/
+│ │ ├── AdminAccount/
+│ │ ├── Certificate/
+│ │ ├── Feed/
+│ │ ├── HospitalAccount/
+│ │ ├── Request/
+│ │ └── UserAccount/
 │ ├── data/ # JSON or static data
 │ ├── hooks/ # Custom React hooks
 │ ├── pages/ # Page components (login, signup, profile, etc.)
@@ -45,6 +46,7 @@ blood-donation-website/
 │ └── store/ # State management (Redux or Context)
 ├── package.json
 └── README.md
+```
 
 ---
 
