@@ -1,0 +1,68 @@
+<Link
+            to="/"
+            className="text-lg font-medium cursor-pointer hover:text-red-600 transition-colors"
+          >
+            Home
+          </Link>
+
+          <Link
+            to="/find-donors"
+            className="text-lg font-medium cursor-pointer hover:text-red-600 transition-colors"
+          >
+            Looking for Blood
+          </Link>
+
+          <Link
+            to="/find-hospitals"
+            className="text-lg font-medium cursor-pointer hover:text-red-600 transition-colors"
+          >
+            Donate Blood
+          </Link>
+
+          return (
+    <div className="w-[100vw] h-[100vh] grid place-content-center ">
+      <div className="bg-black max-w-screen-xl mx-auto header flex flex-items  px-4 w-full">
+        <MyImage alt="Blood Connect" src={Logo} className=" w-[250px]" />
+        <div className="header-content flex gap-4 ">
+
+          
+        </div>
+      </div>
+      <div className="relative w-full h-auto mt-8 mx-auto px-4">
+        <MyImage src={Banner} className="w-full h-auto object-cover filter blur-sm" />
+      </div>
+      <button
+        onClick={() => {
+          if (isAuth) {
+            if (user?.accountType === 'Admin') {
+              navigate("/admin/home");
+            } else {
+              navigate("/profile");
+            }
+          }
+          else navigate("/login");
+        }}
+        className="bg-blue-500 text-white px-4 py-2 rounded-md mt-10"
+      >
+        Get Started
+      </button>
+    </div>
+  );
+}
+ width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 40px 0 20px;
+  
+  <div class="border-b border-gray-700 py-3 fixed top-0 inset-x-0 bg-gray-900 shadow-sm z-[100]"></div>
+  
+  <div class="flex justify-between items-center w-11/12 max-w-[1200px] mx-auto">…</div>flex
+  <div class="md:w-[200px] lg:w-[270px] h-full border-r border-r-gray-300 hidden md:flex flex-col">…</div>flex
+  
+
+  <div className=" min-h-[60vh] flex flex-col items-center justify-center gap-6 md-2  ">
+      <MyImage alt="Banner Image" src={Banner} className="w-[2500px] object-cover filter blur-[6px]" />
+      <MyImage alt="Blood Connect" src={Logo} className="w-[250px]" />
