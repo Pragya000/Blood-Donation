@@ -24,6 +24,3 @@ CSS and Tailwind CSS are instrumental in shaping the visual appeal and responsiv
 
 
 
-## 📸 Screenshot
-
-![Screenshot](src/assets/Screenshot.png)
