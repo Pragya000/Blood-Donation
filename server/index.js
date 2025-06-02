@@ -29,13 +29,19 @@ dotenv.config();
 const PORT = process.env.PORT || 8000;
 
 // Setting up allowed origins
+
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://blood-donation-plum-eight.vercel.app"
+];
+/*
 const allowedOrigins = []
 if(process.env.NODE_ENV) {
   allowedOrigins.push(process.env.CLIENT_URL)
 } else {
   allowedOrigins.push("http://localhost:5173")
 }
-
+*/
 // Middlewares
 app.use(
   cors({
