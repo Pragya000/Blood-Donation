@@ -32,6 +32,7 @@ const PORT = process.env.PORT || 8000;
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://blood-donation-apiz9yif1-pragyas-projects-fc35e872.vercel.app",
   "https://blood-donation-plum-eight.vercel.app"
 ];
 /*
